@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="atstUIAutomation.features.search.ShoppingCartTest" skipped="0" tests="2" time="35.01" timestamp="2021-10-21 02:15:57"><testcase classname="atstUIAutomation.features.search.ShoppingCartTest" name="Add to cart searched product"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+atstUIAutomation.pages.ProductsPage.add_to_cart(ProductsPage.java:50)&#13;
+atstUIAutomation.steps.serenity.ProductsSteps.add_first_product_to_cart(ProductsSteps.java:15)&#13;
+atstUIAutomation.features.search.ShoppingCartTest.add_to_cart_searched_product(ShoppingCartTest.java:42)&#13;
+</system-err></testcase><testcase classname="atstUIAutomation.features.search.ShoppingCartTest" name="Remove product from cart"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+atstUIAutomation.pages.ProductsPage.add_to_cart(ProductsPage.java:50)&#13;
+atstUIAutomation.steps.serenity.ProductsSteps.add_first_product_to_cart(ProductsSteps.java:15)&#13;
+atstUIAutomation.features.search.ShoppingCartTest.add_to_cart_searched_product(ShoppingCartTest.java:42)&#13;
+atstUIAutomation.features.search.ShoppingCartTest.remove_product_from_cart(ShoppingCartTest.java:48)&#13;
+</system-err></testcase></testsuite>

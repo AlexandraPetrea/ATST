@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search test","Add to cart searched product dress","SUCCESS","2020-10-12T09:29:30.5403975+03:00[Europe/Bucharest]","0.0","9.3"
+"Search test","Add to cart searched product pants","SUCCESS","2020-10-12T09:29:39.8969263+03:00[Europe/Bucharest]","0.0","5.29"
+"Search test","Add to cart searched product shirt","SUCCESS","2020-10-12T09:29:45.2259238+03:00[Europe/Bucharest]","0.0","4.97"

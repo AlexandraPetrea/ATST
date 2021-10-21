@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.search.SearchProductByName" skipped="0" tests="1" time="18.71" timestamp="2021-10-21 11:09:07"><testcase classname="atstUIAutomation.features.search.SearchProductByName" name="Add to cart searched product dress"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+atstUIAutomation.pages.HeaderPage.select(HeaderPage.java:65)&#13;
+atstUIAutomation.steps.serenity.HeaderSteps.select_menu(HeaderSteps.java:42)&#13;
+atstUIAutomation.features.search.SearchProductByName.add_to_cart_searched_product_dress(SearchProductByName.java:33)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.search.MenuTest" skipped="0" tests="1" time="9.16" timestamp="2021-10-21 05:09:05"><testcase classname="atstUIAutomation.features.search.MenuTest" name="Check"><failure message="expected:&lt;[HOME &amp; DECO]R&gt; but was:&lt;[EYEWEA]R&gt;" type="org.junit.ComparisonFailure">expected:&lt;[HOME &amp; DECO]R&gt; but was:&lt;[EYEWEA]R&gt;</failure><system-err>expected:&lt;[HOME &amp; DECO]R&gt; but was:&lt;[EYEWEA]R&gt;&#13;
+atstUIAutomation.steps.serenity.NavigationSteps.navigate_to_page_from_menu(NavigationSteps.java:21)&#13;
+atstUIAutomation.features.search.MenuTest.check(MenuTest.java:31)&#13;
+</system-err></testcase></testsuite>
