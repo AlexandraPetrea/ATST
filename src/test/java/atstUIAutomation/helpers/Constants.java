@@ -6,4 +6,6 @@ public class Constants {
 
     /* search term */
     public static final String productName = "shirt";
+
+    public static String nThElement = "Flat Front  Trouser";
 }

@@ -155,7 +155,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2021 17:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2021 11:06</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -185,9 +185,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="error-color">
                                     Check
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -227,12 +227,12 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -246,24 +246,62 @@
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
+                            <td width="160" class="ERROR-text">
 
                                     <a href="fb678c89b573e088d0062ecc2267ed8c32cb6052fc71b74dd2651bfefe33ccde_screenshots.html#screenshots?screenshot=0">
-                                        <img src="f00219af006090ca74c5cb3b34de9be17d1db0efdbeb77a7eac8cd0758e84b35.png"
-                                             href="f00219af006090ca74c5cb3b34de9be17d1db0efdbeb77a7eac8cd0758e84b35.png"
+                                        <img src="7a8927dd8cfc11dd63278a741b276eb40a55a0ab41b17643e7cc9b7c6bd5b1f1.png"
+                                             href="7a8927dd8cfc11dd63278a741b276eb40a55a0ab41b17643e7cc9b7c6bd5b1f1.png"
                                              class="screenshot"
                                              width="48" height="48"/>
                                     </a>
                             </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">7.95s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">44.72s</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="4" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.WebDriverException: The following error occurred: unknown error: net::ERR_CONNECTION_TIMED_OUT<br>  (Session info: chrome=95.0.4638.54)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;DESKTOP-NLBUCUF&#39;, ip: &#39;192.168.0.109&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;11.0.9.1&#39;<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\razvv\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: d82a948cdeb31de79e5a21169081d054</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.WebDriverException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>atstUIAutomation.steps.serenity.NavigationSteps.navigate_to_homepage(NavigationSteps.java:14)<br />atstUIAutomation.features.search.MenuTest.check(MenuTest.java:30)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -277,60 +315,16 @@
                             </div>
                         </td>
 
-                            <td width="160" class="FAILURE-text">
+                            <td width="160" class="SKIPPED-text">
 
-                                    <a href="fb678c89b573e088d0062ecc2267ed8c32cb6052fc71b74dd2651bfefe33ccde_screenshots.html#screenshots?screenshot=1">
-                                        <img src="ac620117896576d3857970958203cdd480a6428dc65a7d3eb8369b75cd771fd4.png"
-                                             href="ac620117896576d3857970958203cdd480a6428dc65a7d3eb8369b75cd771fd4.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
                             </td>
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">0.62s</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="4" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.junit.ComparisonFailure: expected:&lt;[HOME &amp; DECO]R&gt; but was:&lt;[EYEWEA]R&gt;</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.junit.ComparisonFailure </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>atstUIAutomation.steps.serenity.NavigationSteps.navigate_to_page_from_menu(NavigationSteps.java:21)<br />atstUIAutomation.features.search.MenuTest.check(MenuTest.java:31)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-ERROR">
                         <td colspan="3"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>9.16s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>45.01s</em></span></td>
                 </tr>
 
             </table>

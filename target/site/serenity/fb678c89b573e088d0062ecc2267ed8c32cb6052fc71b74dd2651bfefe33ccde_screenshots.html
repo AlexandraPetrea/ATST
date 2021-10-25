@@ -160,7 +160,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2021 17:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2021 11:06</span>
     <br style="clear:left"/>
 </div>
 
@@ -195,9 +195,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Check
+                                <span class="error-color">Check
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -220,7 +220,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Comparison failure: expected:([HOME & DECO]R) but was:([EYEWEA]R)</span>
+                    <span class="error-message error-message-title">Web driver exception: The following error occurred: unknown error: net::ERR_CONNECTION_TIMED_OUT</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -236,11 +236,11 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.junit.ComparisonFailure </h4>
+                    <h4>org.openqa.selenium.WebDriverException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>atstUIAutomation.steps.serenity.NavigationSteps.navigate_to_page_from_menu(NavigationSteps.java:21)<br />atstUIAutomation.features.search.MenuTest.check(MenuTest.java:31)<br /></pre>
+                        <pre>atstUIAutomation.steps.serenity.NavigationSteps.navigate_to_homepage(NavigationSteps.java:14)<br />atstUIAutomation.features.search.MenuTest.check(MenuTest.java:30)<br /></pre>
                     </div>
 
                 </div>
@@ -250,13 +250,12 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource11295041910960175964.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource5731477199990138357.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f00219af006090ca74c5cb3b34de9be17d1db0efdbeb77a7eac8cd0758e84b35.png" title=" Navigate to homepage" width="1034"/>
-                <img src="ac620117896576d3857970958203cdd480a6428dc65a7d3eb8369b75cd771fd4.png" title=" Navigate to page from menu: HOME &amp; DECOR: <span class='failing-color'>FAILURE</span>" width="1034"/>
+                <img src="7a8927dd8cfc11dd63278a741b276eb40a55a0ab41b17643e7cc9b7c6bd5b1f1.png" title=" Navigate to homepage: <span class='error-color'>ERROR</span>" width="929"/>
             </div>
         </div>
 

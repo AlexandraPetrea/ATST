@@ -160,7 +160,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2021 18:24</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2021 16:38</span>
     <br style="clear:left"/>
 </div>
 
@@ -195,9 +195,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Change sorting option on page
+                                <span class="failing-color">Change sorting option on page
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,9 +214,48 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Comparison failure: expected:([Barclay d'Orsay pump, Nude]) but was:([])</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.junit.ComparisonFailure </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>atstUIAutomation.steps.serenity.SortSteps.change_sorting_option(SortSteps.java:24)<br />atstUIAutomation.features.search.SortTest.change_sorting_option_on_page(SortTest.java:28)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6501074003146891870.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="19d5a9b1f6563ff7db0908270cc9f7dc5be2b7db69682b4eaa7eba55addf96cf.png" title=" Change sorting option: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="3ef85336554ac97b56a9847c6062cc22e892a625b6926834f8d695de2e96a82d.png" title=" Change sorting option: <span class='failing-color'>FAILURE</span>" width="929"/>
             </div>
         </div>
 

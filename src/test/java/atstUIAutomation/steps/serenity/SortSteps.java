@@ -12,9 +12,16 @@ public class SortSteps {
     public void change_sorting_option() {
         sortPage.open();
         Assert.assertEquals(true, sortPage.is_products_page());
+
+        //String beforeSortingProduct = sortPage.getNProduct(0);
+       // Assert.assertEquals(beforeSortingProduct, "Barclay d'Orsay pump, Nude");
+
         Assert.assertEquals("Set Descending Direction", sortPage.get_sorting());
         sortPage.change_sorting();
+
         Assert.assertEquals("Set Ascending Direction", sortPage.get_sorting());
+        String afterSortingProduct = sortPage.getNProduct(0);
+        Assert.assertEquals(afterSortingProduct, "");
     }
 
     @Step
