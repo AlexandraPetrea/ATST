@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search product test","Search for pants","SUCCESS","2021-10-25T16:19:01.6186534+03:00[Europe/Athens]","0.0","16.33"
+"Search product test","Search for n pants","SUCCESS","2021-10-25T16:19:18.4008686+03:00[Europe/Athens]","0.0","14.94"
+"Search product test","Search for skirts","SUCCESS","2021-10-25T16:19:33.3937878+03:00[Europe/Athens]","0.0","9.12"

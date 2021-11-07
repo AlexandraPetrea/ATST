@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.sort.SortTest" skipped="0" tests="1" time="9.06" timestamp="2021-11-05 11:34:21"><testcase classname="atstUIAutomation.features.sort.SortTest" name="Change sorting by name"><failure message="Values should be different. Actual: ANN ANKLE BOOT" type="java.lang.AssertionError">Values should be different. Actual: ANN ANKLE BOOT</failure><system-err>Values should be different. Actual: ANN ANKLE BOOT&#13;
+atstUIAutomation.steps.serenity.SortSteps.change_sortingBy_option(SortSteps.java:29)&#13;
+atstUIAutomation.features.sort.SortTest.change_sorting_by_name(SortTest.java:49)&#13;
+</system-err></testcase></testsuite>

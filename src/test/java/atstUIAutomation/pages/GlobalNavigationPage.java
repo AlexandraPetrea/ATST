@@ -18,18 +18,21 @@ public class GlobalNavigationPage extends PageObject {
     private WebElementFacade productSeeAllLink;
 
 
-    public Boolean products_link_is_visible(){
+    public Boolean products_link_is_visible() {
         return productSeeAllLink.waitUntilVisible().isVisible();
     }
 
     @FindBy(className = "page-title")
     private WebElementFacade pageTitle;
 
-    public String get_page_title(){return pageTitle.getText(); }
-
+    public String get_page_title() {
+        return pageTitle.getText();
+    }
+/*
     @FindBy(id="nav")
     private List<WebElementFacade> first;
     public void click_on_page(String page){
         System.out.println(first.get(0).getText());
         }
-    }
+    }*/
+}

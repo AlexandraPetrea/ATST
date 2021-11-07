@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.language.ChangeLanguageTest" skipped="0" tests="1" time="9.41" timestamp="2021-11-05 08:57:59"><testcase classname="atstUIAutomation.features.language.ChangeLanguageTest" name="Content language test german"><failure message="expected:&lt;W[OMEN]&gt; but was:&lt;W[ELCOME]&gt;" type="org.junit.ComparisonFailure">expected:&lt;W[OMEN]&gt; but was:&lt;W[ELCOME]&gt;</failure><system-err>expected:&lt;W[OMEN]&gt; but was:&lt;W[ELCOME]&gt;&#13;
+atstUIAutomation.steps.serenity.HeaderSteps.check_content_changed_by_language(HeaderSteps.java:50)&#13;
+atstUIAutomation.features.language.ChangeLanguageTest.contentLanguageTest_German(ChangeLanguageTest.java:38)&#13;
+</system-err></testcase></testsuite>

@@ -49,5 +49,41 @@ public class SearchProductPage extends PageObject {
         List products = getProducts();
         return products.size();
     }
+    @FindBy(className="current")
+    private WebElementFacade currentPage;
+    @FindBy(className="next")
+    private WebElementFacade nextPage;
+    @FindBy(className="previous")
+    private WebElementFacade previousPage;
+
+    @FindBy(className = "page-title")
+    private WebElementFacade searchTermHeading;
+
+    @FindBy(xpath = "//*[@id='top']/body/div/div/div[2]/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/p")
+    private WebElementFacade pageAmount;
+
+    public String get_page_amount(){
+        return pageAmount.getText();
+    }
+
+
+    public String get_search_results_page_term(){
+        return searchTermHeading.getText();
+    }
+
+
+    public String get_search_results_page(){
+        return currentPage.getText();
+    }
+
+    public Boolean next_is_visible() {return nextPage.isVisible();}
+    public void go_to_next_page(){
+        nextPage.waitUntilClickable().click();
+    }
+
+    public Boolean previous_is_visible() {return previousPage.isVisible();}
+    public void go_to_previous_page(){
+        previousPage.waitUntilClickable().click();
+    }
 
 }

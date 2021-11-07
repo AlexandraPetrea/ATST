@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Menu test","Change menu test","ERROR","2021-10-21T13:39:11.0898595+03:00[Europe/Bucharest]","0.0","8.2"
+"Wish list test","Choose random product for wish list","ERROR","2021-10-21T13:54:27.2938038+03:00[Europe/Bucharest]","0.0","16.21"
+"Sort test","Change page on page","ERROR","2021-10-21T15:47:02.0021059+03:00[Europe/Bucharest]","0.0","10.48"
+"Sort test","Initialisation","ERROR","2021-10-25T09:36:18.8367794+03:00[Europe/Athens]","0.0","0.0"
+"Menu test","Check","ERROR","2021-10-25T11:06:58.9451625+03:00[Europe/Athens]","0.0","45.01"
+"RN test","Searching by keyword apple should display the corresponding article","ERROR","2021-10-25T13:10:34.1461077+03:00[Europe/Athens]","0.0","2.61"

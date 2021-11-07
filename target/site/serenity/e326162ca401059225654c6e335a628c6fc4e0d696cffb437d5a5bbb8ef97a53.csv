@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Shopping cart test","Add to cart searched product","FAILURE","2021-10-21T14:15:57.1046768+03:00[Europe/Bucharest]","0.0","20.44"
+"Shopping cart test","Remove product from cart","FAILURE","2021-10-21T14:16:18.2993461+03:00[Europe/Bucharest]","0.0","14.57"

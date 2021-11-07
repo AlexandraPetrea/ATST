@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Sort test","Add to cart searched product dress","SUCCESS","2021-10-21T15:19:46.0191394+03:00[Europe/Bucharest]","0.0","8.27"
+"Sort test","Change view option on page","SUCCESS","2021-10-21T15:34:46.2719889+03:00[Europe/Bucharest]","0.0","9.95"
+"Sort test","Change page on page","ERROR","2021-10-21T15:47:02.0021059+03:00[Europe/Bucharest]","0.0","10.48"
+"Sort test","Initialisation","ERROR","2021-10-25T09:36:18.8367794+03:00[Europe/Athens]","0.0","0.0"
+"Sort test","Change sorting option on page","FAILURE","2021-10-25T17:31:06.270717+03:00[Europe/Bucharest]","0.0","10.86"
+"Sort test","Change view mode on page","SUCCESS","2021-10-25T17:35:45.9790421+03:00[Europe/Bucharest]","0.0","9.12"

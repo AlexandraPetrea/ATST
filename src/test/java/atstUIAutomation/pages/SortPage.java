@@ -6,7 +6,9 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
+import org.jruby.RubyProcess;
 
+import javax.swing.text.html.parser.Element;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,15 +34,23 @@ public class SortPage extends PageObject {
     }
 
 
-    @FindBy(className = "view-mode")
+    @FindBy(xpath = "//*[@id='top']/body/div/div/div[2]/div/div[2]/div[2]/div[3]/div[1]/div[1]/p")
     private WebElementFacade viewMode;
+    @FindBy(xpath = "//*[@id='top']/body/div/div/div[2]/div/div[2]/div[2]/div[3]/div[1]/div[1]/p/strong")
+    private WebElementFacade viewMode1;
     @FindBy(className = "list")
     private WebElementFacade viewOptionList;
     @FindBy(className = "grid")
     private WebElementFacade viewOptionGrid;
 
+
+
     public String get_view_mode(){
-        return viewMode.getText();
+        System.out.println(viewMode.getText());
+
+        System.out.println(viewMode1.getText());
+
+        return viewMode1.getText();
     }
 
     public void change_view_list(){
@@ -78,5 +88,35 @@ public class SortPage extends PageObject {
         List products = getProducts();
         return products.size();
     }
+
+    @FindBy(className = "sort-by")
+    private WebElementFacade sortingBy;
+
+    public List<String> get_all_sortiong_options(){
+     System.out.println(sortingBy.getSelectOptions());
+     return sortingBy.getSelectOptions();
+
+ }
+    @FindBy(xpath = "//*[@id='top']/body/div/div/div[2]/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/select")
+    private WebElementFacade changeSortingBy;
+
+    public void change_sortingBy_option(String sortingByOption){
+        changeSortingBy.click();
+        changeSortingBy.selectByVisibleText(sortingByOption);
+
+ }
+    public String get_sortingBy(){
+      System.out.println(sortingBy.getSelectOptions());
+        List aux = sortingBy.findElements(By.xpath("//option[@selected='selected']")).stream()
+                .map(element ->
+                        element.getText()
+                )
+                .collect(Collectors.toList());
+
+       System.out.println(aux.get(1).toString());
+        return aux.get(1).toString();
+    }
+
+
 }
 
