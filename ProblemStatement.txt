@@ -1,0 +1,18 @@
+Problem statement:
+1) Change language feature 
+	1) Check the list of the available options 
+	2) Check that every language can be selected from the list
+	3) Discover a bug: even though the language is changed, the content remains the same
+2) Sorting feature
+	1) Check the list of available sorting by options
+	2) Check for every option that sorting is working (the ordering is changed when the option is selected) 
+	3) Check for every option that ascending/descending option is working
+		-> bug: sorting by position is not working
+	4) Check view mode (from grid to list, from grid to grid, from list to grid)
+3) Searching feature
+	1) Check search feature using 3 different words
+	2) Check navigation on the search result page
+		- check on the first page that the previous button is not visible, but the next button is
+		- check that next button go to the next page
+		- check that the previous button go to the previous page
+	3) Check that scroll is working
