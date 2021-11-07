@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Change language test","Content language test german","FAILURE","2021-11-05T20:57:59.6859617+02:00[Europe/Bucharest]","0.0","9.41"
-"Language test","Content language test french","FAILURE","2021-11-05T23:22:06.5885134+02:00[Europe/Bucharest]","0.0","6.65"
-"Language test","Content language test german","FAILURE","2021-11-05T23:22:13.5708145+02:00[Europe/Bucharest]","0.0","4.53"
+"Language test","Content language test french","FAILURE","2021-11-07T18:23:02.9617385+02:00[Europe/Bucharest]","0.0","4.32"
+"Language test","Content language test german","FAILURE","2021-11-07T18:23:07.4508858+02:00[Europe/Bucharest]","0.0","4.12"

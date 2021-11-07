@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="SearchProductTest" skipped="0" tests="3" time="40.39" timestamp="2021-10-25 04:19:01"><testcase classname="SearchProductTest" name="Search for pants"/><testcase classname="SearchProductTest" name="Search for n pants"/><testcase classname="SearchProductTest" name="Search for skirts"/></testsuite>

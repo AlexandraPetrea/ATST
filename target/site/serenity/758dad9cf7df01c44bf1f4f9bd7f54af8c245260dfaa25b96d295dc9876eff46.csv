@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"RN test","Add to cart searched product dress","SUCCESS","2021-10-25T12:20:55.0004135+03:00[Europe/Athens]","0.0","17.31"
-"RN test","Get page title","SUCCESS","2021-10-25T12:32:17.6451015+03:00[Europe/Athens]","0.0","20.27"
-"RN test","Searching by keyword banana should display the corresponding article","SUCCESS","2021-10-25T13:10:27.6229848+03:00[Europe/Athens]","0.0","5.95"
-"RN test","Search for pants","SUCCESS","2021-10-25T15:09:53.2373712+03:00[Europe/Athens]","0.0","7.09"

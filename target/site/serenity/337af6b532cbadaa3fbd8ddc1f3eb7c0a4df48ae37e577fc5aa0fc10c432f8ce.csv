@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Change language test","Change language test","SUCCESS","2021-10-25T17:59:39.6324094+03:00[Europe/Bucharest]","0.0","4.23"
-"Change language test","Change language test french","SUCCESS","2021-11-05T20:42:52.900875+02:00[Europe/Bucharest]","0.0","18.85"
-"Change language test","Language list size test","SUCCESS","2021-11-05T20:43:16.998908+02:00[Europe/Bucharest]","0.0","3.36"
-"Change language test","Change language test german","SUCCESS","2021-11-05T20:47:02.5004746+02:00[Europe/Bucharest]","0.0","9.56"
-"Change language test","Content language test german","FAILURE","2021-11-05T20:57:59.6859617+02:00[Europe/Bucharest]","0.0","9.41"

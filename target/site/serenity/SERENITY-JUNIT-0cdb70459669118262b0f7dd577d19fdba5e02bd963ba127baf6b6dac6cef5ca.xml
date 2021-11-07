@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.search.SortTest" skipped="0" tests="1" time="10.86" timestamp="2021-10-25 05:31:06"><testcase classname="atstUIAutomation.features.search.SortTest" name="Change sorting option on page"><failure message="expected:&lt;[Barclay d'Orsay pump, Nude]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[Barclay d'Orsay pump, Nude]&gt; but was:&lt;[]&gt;</failure><system-err>expected:&lt;[Barclay d'Orsay pump, Nude]&gt; but was:&lt;[]&gt;&#13;
-atstUIAutomation.steps.serenity.SortSteps.change_sorting_option(SortSteps.java:24)&#13;
-atstUIAutomation.features.search.SortTest.change_sorting_option_on_page(SortTest.java:28)&#13;
-</system-err></testcase></testsuite>

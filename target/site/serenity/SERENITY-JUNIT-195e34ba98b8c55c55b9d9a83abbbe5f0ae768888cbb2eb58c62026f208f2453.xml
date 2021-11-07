@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="atstUIAutomation.features.search.RNTest" skipped="0" tests="2" time="11.11" timestamp="2021-10-25 03:09:53"><testcase classname="atstUIAutomation.features.search.RNTest" name="Search for pants"/><testcase classname="atstUIAutomation.features.search.RNTest" name="Search for skirts"><failure message="expected:&lt;2&gt; but was:&lt;4&gt;" type="java.lang.AssertionError">expected:&lt;2&gt; but was:&lt;4&gt;</failure><system-err>expected:&lt;2&gt; but was:&lt;4&gt;&#13;
-atstUIAutomation.RNTests.SearchProductSteps.getNumberOfProducts(SearchProductSteps.java:22)&#13;
-atstUIAutomation.features.search.RNTest.searchForSkirts(RNTest.java:34)&#13;
-</system-err></testcase></testsuite>
